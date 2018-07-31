@@ -1,21 +1,21 @@
 # Arbin-Singularity
 
-[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/1362)
+[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/1370)
 
 Pull the container to your machine (and optionally name custom):
 ```
-singularity pull shub://ArbinTimilsina/Arbin-Singularity
-singularity pull --name customname.img shub://ArbinTimilsina/Arbin-Singularity
+singularity pull shub://ArbinTimilsina/Base-Singularity
+singularity pull --name customname.img shub://ArbinTimilsina/Base-Singularity
 ```
 
 Shell into the container:
 ```
-singularity shell shub://ArbinTimilsina/Arbin-Singularity
+singularity shell shub://ArbinTimilsina/Base-Singularity
 ```
 
 Run the container:
 ```
-singularity run shub://ArbinTimilsina/Arbin-Singularity
+singularity run shub://ArbinTimilsina/Base-Singularity
 ```
 
 To run the container after the build, try
