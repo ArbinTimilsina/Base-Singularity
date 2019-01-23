@@ -4,18 +4,18 @@
 
 Pull the container to your machine (and optionally name custom):
 ```
-singularity pull shub://ArbinTimilsina/Base-Singularity
-singularity pull --name customname.img shub://ArbinTimilsina/Base-Singularity
+singularity pull shub://ArbinTimilsina/Base-Singularity:ubuntu16.04-gpu-py3-root-ml-dl
+singularity pull --name customname.img shub://ArbinTimilsina/Base-Singularity:ubuntu16.04-gpu-py3-root-ml-dl
 ```
 
 Shell into the container:
 ```
-singularity shell shub://ArbinTimilsina/Base-Singularity
+singularity shell shub://ArbinTimilsina/Base-Singularity:ubuntu16.04-gpu-py3-root-ml-dl
 ```
 
 Run the container:
 ```
-singularity run shub://ArbinTimilsina/Base-Singularity
+singularity run shub://ArbinTimilsina/Base-Singularity:ubuntu16.04-gpu-py3-root-ml-dl
 ```
 
 To run the container after the build, try
