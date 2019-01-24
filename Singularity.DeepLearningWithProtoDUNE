@@ -28,6 +28,7 @@ singularity exec --nv THIS_CONTAINER.simg bash
     # apt-get
     apt-get -y update
     apt-get -y install dpkg-dev g++ gcc binutils libqt4-dev python3-dev python3-tk python3-pip git wget emacs vim
+    apt-get -y install pydot graphviz
 
 # pip basics- pip3 breaks the build- https://github.com/pypa/pip/issues/5599 so using python -m pip instead
     python -m pip --no-cache-dir install --upgrade pip
@@ -35,7 +36,6 @@ singularity exec --nv THIS_CONTAINER.simg bash
     python -m pip --no-cache-dir install numpy wheel zmq six pygments pyyaml cython gputil psutil humanize h5py tqdm
     python -m pip --no-cache-dir install matplotlib pandas scikit-image scikit-learn Pillow opencv-python
     python -m pip --no-cache-dir install jupyter notebook
-    python -m pip --no-cache-dir install pydot graphviz
-
+    
 # keras
     python -m pip --no-cache-dir install keras
